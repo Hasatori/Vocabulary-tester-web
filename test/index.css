@@ -1,0 +1,29 @@
+.result{
+  
+    background-color: white;
+    padding: 2rem 0;
+    border: 0.2rem solid lightgrey;
+
+     
+   height: 65vh;
+   
+  overflow-y: scroll; 
+}
+.wrong,.info,.default,.right{
+  background-color:rgb(40, 167, 69) !important;;
+    color: white;
+font-weight: bold;
+    padding:0.5rem 1rem ;
+}
+.default{
+    background-color: white !important;;
+    color:#333;
+}
+.wrong{
+  background-color:#DC3545 !important;;
+}
+.info{
+    background-color: #17A2B8 !important;;
+    text-align: center;
+
+}

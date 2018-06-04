@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/facebook/FileUpload" />
+      <path value="$PROJECT_DIR$/vendor/facebook/Http" />
+      <path value="$PROJECT_DIR$/vendor/facebook/PersistentData" />
+      <path value="$PROJECT_DIR$/vendor/facebook/Url" />
+      <path value="$PROJECT_DIR$/vendor/facebook/Authentication" />
+      <path value="$PROJECT_DIR$/vendor/facebook/Exceptions" />
+      <path value="$PROJECT_DIR$/vendor/facebook/GraphNodes" />
+      <path value="$PROJECT_DIR$/vendor/facebook/HttpClients" />
+      <path value="$PROJECT_DIR$/vendor/facebook/Helpers" />
+      <path value="$PROJECT_DIR$/vendor/facebook/PseudoRandomString" />
+    </include_path>
+  </component>
+</project>

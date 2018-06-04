@@ -1,0 +1,19 @@
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php
+
+
+<IfModule mod_expires.c>
+ExpiresByType text/css "access 1 month"
+ExpiresByType text/x-javascript "access 1 month"
+</IfModule>
+
+<Files .htaccess>
+Order Allow,Deny
+Deny from all
+</Files>
+<Files config.ini>
+Order Allow,Deny
+Deny from all
+</Files>

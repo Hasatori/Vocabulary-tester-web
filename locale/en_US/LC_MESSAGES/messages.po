@@ -1,0 +1,571 @@
+# povinné prázdné msgid & msgstr
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1\n"
+"POT-Creation-Date: 2018-02-08 20:00+0500\n"
+"Last-Translator: Oldřich Hradil <hradil.o@email.cz>\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en_US\n"
+"PO-Revision-Date: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+
+# MAIN
+msgid "APPLICATION_NAME"
+msgstr "Vocabulary Tester"
+
+# #############################################
+# DICTIONARIES LIST
+msgid "DL_LIST_TAB_CAPTION"
+msgstr "Dictionaries"
+
+msgid "DL_LIST_DIC_NAME"
+msgstr "Name"
+
+msgid "DL_LIST_TAB_LANGUAGES"
+msgstr "Languages"
+
+msgid "DL_HEADING"
+msgstr "Your dictionaries"
+
+msgid "DL_GENERATOR_HEADING"
+msgstr "Genarator"
+
+msgid "DL_DIC_COUNT"
+msgstr "Number of dictionaries"
+
+msgid "DL_VOC_COUNT"
+msgstr "Vocabularies per dictionary"
+
+msgid "DL_GEN_BTN"
+msgstr "Generate"
+
+msgid "DL_ADD_DIC_HEADING"
+msgstr "Dictionary creation"
+
+msgid "DL_ADD_DIC_DCNAME"
+msgstr "Dictionary name:"
+
+msgid "DL_ADD_DIC_DCNAME_PLC"
+msgstr "insert dictionary name..."
+
+msgid "DL_ADD_DIC_FRST_LANG"
+msgstr "First language:"
+
+msgid "DL_ADD_DIC_FRST_LANG_PLC"
+msgstr "first language..."
+
+msgid "DL_ADD_DIC_SCND_LANG"
+msgstr "Second language:"
+
+msgid "DL_ADD_DIC_SCND_LANG_PLC"
+msgstr "second language..."
+
+msgid "DL_ADD_DIC_BTN"
+msgstr "Add dictionary"
+
+msgid "DL_ADD_VOC_HEADING"
+msgstr "Vocabulary creation"
+
+msgid "DL_ADD_VOC_FRST_VAL"
+msgstr "First value:"
+
+msgid "DL_ADD_VOC_FRST_VAL_PLC"
+msgstr "first value..."
+
+msgid "DL_ADD_VOC_SCND_VAL"
+msgstr "Second value:"
+
+msgid "DL_ADD_VOC_SCND_VAL_PLC"
+msgstr "second value..."
+
+msgid "DL_ADD_VOC_BTN"
+msgstr "add vocabulary"
+
+msgid "DL_ADD_ICON"
+msgstr "add"
+
+msgid "DL_DIC_DEL_DIAL_HEAD"
+msgstr "Delete dictionary"
+
+msgid "DL_DIC_DEL_DIAL_TXT"
+msgstr "Do you really want to delete this dictionary?"
+
+msgid "DL_VOC_DEL_DIAL_HEAD"
+msgstr "Delete vocabulary"
+
+msgid "DL_VOC_DEL_DIAL_TXT"
+msgstr "Do you really want to delete this vocabulary?"
+
+msgid "DL_EDIT_VOC_HEADING"
+msgstr "Vocabulary editing"
+
+msgid "DL_EDIT_DIC_HEADING"
+msgstr "Dictionary editing"
+
+msgid "DL_EDIT_DIC_ALEXISTS"
+msgstr "Dictionary with this name already exists."
+
+msgid "DL_EDIT_VOC_ALEXISTS"
+msgstr "Dictionary alread contains this vocabulary."
+
+# #############################################
+# PRACTICE
+msgid "PRAC_HEADING"
+msgstr "Testing session"
+
+msgid "PRAC_DIC_TO_PRACTICE"
+msgstr "Dictionaries for testing session"
+
+msgid "PRAC_LIST_HEADING"
+msgstr "Testing sessions list"
+
+msgid "PRAC_NAME"
+msgstr "Testing session name"
+
+msgid "PRAC_CONTINUE"
+msgstr "Continue in testing session"
+
+msgid "PRAC_DELETE"
+msgstr "Delete testing session"
+
+msgid "PRAC_CREATE_HEADING"
+msgstr "Create testing session"
+
+msgid "PRAC_CREATE_NAME_LBL"
+msgstr "Testing session name:"
+
+msgid "PRAC_CREATE_SHOWSUCCESS_LBL"
+msgstr "Show success rate:"
+
+msgid "PRAC_CREATE_HOW_MANY_TO_ACCEPT"
+msgstr "After how many right answers exclude vocabulary from testing session"
+
+msgid "PRAC_CREATE_BTN"
+msgstr "Create testing session"
+
+msgid "PRAC_SESSION_BACK_TO_BTN"
+msgstr "Back to tesint sessions list"
+
+msgid "PRAC_SESSION_TO_TRANSLATE_LBL"
+msgstr "Vocabulary:"
+
+msgid "PRAC_SESSION_TRANSLATION_LBL"
+msgstr "Translation"
+
+msgid "PRAC_SESSION_TRANSLATION_PLC"
+msgstr "Insert translation..."
+
+msgid "PRAC_SESSION_SEND_BTN"
+msgstr "Send"
+
+msgid "PRAC_SESSION_TRY_AGAIN_BTN"
+msgstr "Try again"
+
+msgid "PRAC_SESSION_CONTINUE"
+msgstr "Continue"
+
+msgid "PRAC_SESSION_SUCCESS_RATE_HEADING"
+msgstr "Success rate"
+
+msgid "PRAC_RESULT_HEADING"
+msgstr "Testing session result"
+
+msgid "PRAC_RESULT_FIRST_VAL_HEADING"
+msgstr "First value"
+
+msgid "PRAC_RESULT_SECOND_VAL_HEADING"
+msgstr "Second value"
+
+msgid "PRAC_RESULT_RIGHT_HEADING"
+msgstr "Right"
+
+msgid "PRAC_RESUTL_WRONG_HEADING"
+msgstr "Wrong"
+
+msgid "PRAC_RESULT_RESTART_BTN"
+msgstr "Restart testing session"
+
+msgid "PRAC_DEL_DIAL_HEAD"
+msgstr "Testing session deletetion"
+
+msgid "PRAC_DEL_DIAL_TXT"
+msgstr "Do you really want to delete this tesing session?"
+
+msgid "PRAC_EDIT_PRAC_HEADING"
+msgstr "Testing session editing"
+
+msgid "PRAC_CREATE_PRAC_NAME_MISSING"
+msgstr "Name is not filled"
+
+msgid "PRAC_CREATE_PRAC_ACCEPT_AFTER_MISSING"
+msgstr "Accept after is not filled"
+
+msgid "PRAC_CREATE_PRAC_DIC_MISSING"
+msgstr "No dictionaries were chosen"
+
+msgid "PRAC_CREATE_PRAC_NAME_ALEXISTS"
+msgstr "This testing session already exists"
+
+msgid "PRAC_CREATE_WRONG_FORMAT_ACCEPTA"
+msgstr "Wrong format. Accept after must be a number."
+# #############################################
+# ACCOUNT INFORMATION
+msgid "CLIENT_NAME_LBL"
+msgstr "Name:"
+
+msgid "CLIENT_EMAIL_LBL"
+msgstr "Email:"
+
+# #############################################
+# TESTING
+msgid "TESTING_HEADING"
+msgstr "Application testing"
+
+msgid "TESTING_RUN_TESTS_BTN_LBL"
+msgstr "Run tests"
+
+msgid "TESTING_RESULT"
+msgstr "Testing result"
+
+msgid "TESTING_LOAD_BACKUP_BTN_LBL"
+msgstr "Load backup"
+
+msgid "TESTING_LOAD_BACKUP_SUCCESS"
+msgstr "Backup created"
+
+msgid "TESTING_BACKUP_LOAD"
+msgstr "Loading backup"
+
+msgid "TESTING_CREATE_BACKUP_BTN_LBL"
+msgstr "Create backup"
+
+# #############################################
+# MEMBER HOME
+msgid "MHOME_DIC_TAG_1"
+msgstr "Create your own dictionaries and add vocabularies in it"
+
+msgid "MHOME_DIC_TAG_2"
+msgstr "Share dictionaries via Facebook and application"
+
+msgid "MHOME_PRAC_TAG_1"
+msgstr "Practice vocabularies"
+
+msgid "MHOME_PRAC_TAG_2"
+msgstr "Different practice modes, adjustment options"
+
+msgid "MHOME_LEARNING_TAG_1"
+msgstr "Sources to learn the language"
+
+msgid "MHOME_LEARNING_TAG_2"
+msgstr "Many examples"
+
+msgid "MHOME_LEARNING_TAG_3"
+msgstr "Practice grammar"
+
+# #############################################
+# HOME
+msgid "HOME_HEADING"
+msgstr "Homepage"
+
+# #############################################
+# REGISTRATION
+msgid "R_HEADING"
+msgstr "Registration"
+
+msgid "R_SUCCESS_MSG"
+msgstr "Registration was successful. We sent you activation email."
+
+msgid "R_ERROR_MSG"
+msgstr "An error has occurred while the registration. Please, try it again."
+
+msgid "R_SUBMIT"
+msgstr "Register"
+
+msgid "R_USERNAMECHECK"
+msgstr "This username is already in use."
+
+msgid "R_PWD_ERROR_MSG1"
+msgstr "Password has to be at least 6 signs long, and it can not contain an"
+
+msgid "R_PWD_ERROR_MSG2"
+msgstr "Passwords do not match."
+
+msgid "R_EMAILCHECK"
+msgstr "This email is already in use."
+
+msgid "R_NAMECHECK"
+msgstr "This usernam is already in use."
+
+msgid "R_PWD_WARNING_MSG"
+msgstr "Your password is weak. We recommend you to use combination of lower case, upper case and digits."
+
+# #############################################
+# LOGIN
+msgid "L_HEADING"
+msgstr "Login"
+
+msgid "L_ERROR_MSG"
+msgstr "Wrong password or email."
+
+msgid "L_SUBMIT"
+msgstr "Sign In"
+
+msgid "L_FORGOTTENPSWD"
+msgstr "Did you forget your password?"
+
+msgid "L_BACK_TO"
+msgstr "Back to login"
+
+msgid "L_FB_LOGIN_BTN"
+msgstr "Log in with Facebook"
+
+msgid "L_WRONG_PASSWORD"
+msgstr "Wrong password"
+
+msgid "L_WRONG_EMAIL"
+msgstr "Wrong email address"
+
+msgid "L_REMEMBER_ME"
+msgstr "Stayed logged for 2 two weeks"
+
+msgid "R_FB_INFO_MSG"
+msgstr "This email is already used via Facebook account. If it is your account plese use forgotten password function, and we will send you login information."
+
+# #############################################
+# LOG OUT
+msgid "LOGOUT_LB"
+msgstr "Log Out"
+
+# #############################################
+# NEWPASSWORDA
+msgid "NPWDA_HEADING"
+msgstr "Password activation"
+
+msgid "NPWDA_ERROR_MSG"
+msgstr "An error has occurred while activation of your new password. Please, try it later."
+
+msgid "NPWDA_SUCCESS_MSG"
+msgstr "Your new password has been activated."
+
+# #############################################
+# ACCOUNT ACTIVATION
+msgid "AA_HEADING"
+msgstr "Account activation"
+
+msgid "AA_ERROR_MSG"
+msgstr "An error has occurred during account activation."
+
+msgid "AA_SUCCESS_MSG"
+msgstr "Your account has been successfully activated."
+
+# #############################################
+# FORGOTTEN PASSWORD
+msgid "FPWD_HEADING"
+msgstr "Forgotten password"
+
+msgid "FPWD_MSG"
+msgstr "Link will be sent to your email adress, after it´s activation password will be changed."
+
+msgid "FPWD_EMAIL_ERROR_MSG"
+msgstr "There is no such email in our database."
+
+msgid "FPWD_SUBMIT"
+msgstr "Send"
+
+msgid "FPWD_ERROR_MSG"
+msgstr "An error has occurred. Please try is later."
+
+msgid "FPWD_SUCCESS_MSG"
+msgstr "Email has been successfully sent."
+
+# #############################################
+# FORMS
+msgid "USERNAME_LABEL"
+msgstr "Username"
+
+msgid "USERNAME_PLC"
+msgstr "Insert username"
+
+msgid "PWD_LABEL"
+msgstr "Password"
+
+msgid "PWD_PLC"
+msgstr "Inser password"
+
+msgid "PWDC_LABEL"
+msgstr "Password confirmation"
+
+msgid "EMAIL_LABEL"
+msgstr "Email"
+
+msgid "EMAIL_PLC"
+msgstr "Insert email"
+
+# #############################################
+# FOOTER
+msgid "MOBILE_AP_LABEL"
+msgstr "Mobile application"
+
+msgid "LAST_MOD_LABEL"
+msgstr "Last modification:"
+
+# #############################################
+# VALIDATION
+msgid "NOT_FILLED"
+msgstr "not filled"
+
+# #############################################
+# #############################################################################
+# #############################################################################
+# ###########################                             #####################
+# ###########################       NAVIGATION BAR        #####################
+# ###########################                             #####################
+# #############################################################################
+# #############################################################################
+# LANGUAGES
+msgid "AMERICAN_ENGLISH"
+msgstr "English (United States)"
+
+msgid "AMERICAN_FLAG_IMG_DESCRIPTION"
+msgstr "american flag"
+
+msgid "BRITISH_ENGLISH"
+msgstr "Angličtina (Great Britain)"
+
+msgid "CZECH"
+msgstr "Czech"
+
+msgid "CZECH_FLAG_IMG_DESCRIPTION"
+msgstr "czech flag"
+
+msgid "SPANISH"
+msgstr "Spanish"
+
+msgid "GERMAN"
+msgstr "German"
+
+msgid "JAPANESE"
+msgstr "Japanese"
+
+# #############################################
+# SETTINGS
+msgid "STNGS_ACCOUNT_LB"
+msgstr "Your account"
+
+msgid "STNGS_STATISTICS_LB"
+msgstr "Statistics"
+
+msgid "STNGS_PRACTICE_STNG_LB"
+msgstr "Practice setting"
+
+# SEARCHFIELD
+msgid "SEARCHFIELD_LB"
+msgstr "Search..."
+
+# ############################################
+# #############################################################################
+# #############################################################################
+# ###########################                             #####################
+# ########################### FUNCTION GENERATED MESSAGES #####################
+# ###########################                             #####################
+# #############################################################################
+# #############################################################################
+# DATABASE
+msgid "DB_NO_CONNECTION"
+msgstr "No database connection. Please try it later."
+
+msgid "SQL_ERROR"
+msgstr "Error has occured, please try it later."
+
+# #############################################################################
+# LOGIN - BOTH REGULAR AND FACEBOOK
+msgid "LOGIN_NOT_ACTIVATED"
+msgstr "Your account has not been activated yet. Please look into your email."
+
+msgid "FB_LOGIN_ERR"
+msgstr "Error has occured, while attempting to cennect via Facebook."
+
+# #############################################################################
+# #############################################################################
+# ###########################                             #####################
+# ###########################        VALIDATION           #####################
+# ###########################                             #####################
+# #############################################################################
+# #############################################################################
+msgid "VALIDATE_NAME"
+msgstr "Username can contain only letters and digits, it can not contain any other characters or whitespaces!"
+
+msgid "VALIDATE_EMAIL"
+msgstr "Wrong format of the email!"
+
+# #############################################################################
+# #############################################################################
+# #############################################################################
+# #############################################################################
+# #############################################################################
+# ###########################                             #####################
+# ###########################           EMAILS            #####################
+# ###########################                             #####################
+# #############################################################################
+# #############################################################################
+# CONFIRM REGISTRATION
+msgid "MAIL_CR_SUB"
+msgstr "Registration confirmations"
+
+msgid "MAIL_CR_TITLE"
+msgstr "Registration confirmation - Vocabulary Tester"
+
+msgid "MAIL_CR_H1"
+msgstr "Thank you for your registration. "
+
+msgid "MAIL_CR_H2"
+msgstr "Your login details:"
+
+msgid "MAIL_CR_USERNAME_LB"
+msgstr "Username:"
+
+msgid "MAIL_CR_PASSWORD_LB"
+msgstr "Password:"
+
+msgid "MAIL_CR_LINK_LB"
+msgstr "In order to activate your account, please go to the following link"
+
+# FORGOTTEN PASSWORD
+msgid "MAIL_FP_SUB"
+msgstr "Forgotten password"
+
+msgid "MAIL_FP_TITLE"
+msgstr "Forgotten password - Vocabulary Tester"
+
+msgid "MAIL_FP_H1"
+msgstr "Password reset"
+
+msgid "MAIL_FP_PASSWORD_LB"
+msgstr "Your new password is:"
+
+msgid "MAIL_FP_LINK_LB"
+msgstr "In order to activate your new password, please go to the following link"
+
+# #############################################################################
+# #############################################################################
+# #############################################################################
+# #############################################################################
+# ###########################                             #####################
+# ###########################           DIALOGS           #####################
+# ###########################                             #####################
+# #############################################################################
+# #############################################################################
+msgid "YES_NO_DIAL_POSITIVE"
+msgstr "Yes"
+
+msgid "YES_NO_DIAL_NEGATIVE"
+msgstr "No"
+
+msgid "DIALOG_CLOSE"
+msgstr "Close"
+
+msgid "DIALOG_SUBMIT"
+msgstr "Submit"

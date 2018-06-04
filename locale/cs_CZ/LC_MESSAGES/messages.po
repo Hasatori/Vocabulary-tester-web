@@ -1,0 +1,554 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1\n"
+"POT-Creation-Date: 2018-02-08 20:00+0500\n"
+"Last-Translator: Oldřich Hradil <jana@priklad.cz>\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: cs_CZ\n"
+"PO-Revision-Date: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+
+# MAIN
+msgid "APPLICATION_NAME"
+msgstr "Zkoušení slovíček"
+
+# #############################################
+# DICTIONARIES LIST
+msgid "DL_LIST_TAB_CAPTION"
+msgstr "Slovníky"
+
+msgid "DL_LIST_DIC_NAME"
+msgstr "Název slovníku"
+
+msgid "DL_LIST_TAB_LANGUAGES"
+msgstr "Jazyky"
+
+msgid "DL_HEADING"
+msgstr "Vaše slovníky"
+
+msgid "DL_GENERATOR_HEADING"
+msgstr "Generátor"
+
+msgid "DL_DIC_COUNT"
+msgstr "Počet slovníků"
+
+msgid "DL_VOC_COUNT"
+msgstr "Počet slovíček ve slovníku"
+
+msgid "DL_GEN_BTN"
+msgstr "Generovat"
+
+msgid "DL_ADD_DIC_HEADING"
+msgstr "Vytvoření slovníku"
+
+msgid "DL_ADD_DIC_DCNAME"
+msgstr "Název slovníku:"
+
+msgid "DL_ADD_DIC_DCNAME_PLC"
+msgstr "vložte název slovníku..."
+
+msgid "DL_ADD_DIC_FRST_LANG"
+msgstr "První jazyk:"
+
+msgid "DL_ADD_DIC_FRST_LANG_PLC"
+msgstr "první jazyk..."
+
+msgid "DL_ADD_DIC_SCND_LANG"
+msgstr "Druhý jazyk:"
+
+msgid "DL_ADD_DIC_SCND_LANG_PLC"
+msgstr "druhý jazyk..."
+
+msgid "DL_ADD_DIC_BTN"
+msgstr "Přidat slovník"
+
+msgid "DL_ADD_VOC_HEADING"
+msgstr "Vytvoření slovíčka"
+
+msgid "DL_ADD_VOC_FRST_VAL"
+msgstr "První hodnota:"
+
+msgid "DL_ADD_VOC_FRST_VAL_PLC"
+msgstr "první hodnota..."
+
+msgid "DL_ADD_VOC_SCND_VAL"
+msgstr "Druhá hodnota:"
+
+msgid "DL_ADD_VOC_SCND_VAL_PLC"
+msgstr "druhá hodnota..."
+
+msgid "DL_ADD_VOC_BTN"
+msgstr "Přidat slovíčko"
+
+msgid "DL_ADD_ICON"
+msgstr "přidat"
+
+msgid "DL_DIC_DEL_DIAL_HEAD"
+msgstr "Mazání slovníku"
+
+msgid "DL_DIC_DEL_DIAL_TXT"
+msgstr "Opravdu chcete vymazat tento slovník?"
+
+msgid "DL_VOC_DEL_DIAL_HEAD"
+msgstr "Mazání slovíčka"
+
+msgid "DL_VOC_DEL_DIAL_TXT"
+msgstr "Opravdu chcete vymazat toto slovíčko?"
+
+msgid "DL_EDIT_VOC_HEADING"
+msgstr "Editace slovíčka"
+
+msgid "DL_EDIT_DIC_HEADING"
+msgstr "Editace slovníku"
+
+msgid "DL_EDIT_DIC_ALEXISTS"
+msgstr "Slovník s tímto názvem už existuje."
+
+msgid "DL_EDIT_VOC_ALEXISTS"
+msgstr "Toto slovíčko je již obsaženo ve slovníku."
+
+
+# #############################################
+# PRACTICE
+msgid "PRAC_HEADING"
+msgstr "Procvičování"
+
+msgid "PRAC_DIC_TO_PRACTICE"
+msgstr "Slovníky pro zkoušení"
+
+
+msgid "PRAC_LIST_HEADING"
+msgstr "Seznam zkoušení"
+msgid "PRAC_NAME"
+msgstr "Název zkoušení"
+msgid "PRAC_CONTINUE"
+msgstr "Pokračovat ve žkoušení"
+msgid "PRAC_DELETE"
+msgstr "Vymazat zkoušení"
+msgid "PRAC_CREATE_HEADING"
+msgstr "Vytvořit relaci zkoušení"
+msgid "PRAC_CREATE_NAME_LBL"
+msgstr "Název relace zkoušení"
+msgid "PRAC_CREATE_SHOWSUCCESS_LBL"
+msgstr "Ukazovat úspěšnost"
+msgid "PRAC_CREATE_HOW_MANY_TO_ACCEPT"
+msgstr "Po kolika správných odpovědích vyřadit z relace zkoušení"
+msgid "PRAC_CREATE_BTN"
+msgstr "Vytvořit relaci zkoušení"
+msgid "PRAC_SESSION_BACK_TO_BTN"
+msgstr "Zpět na seznam zkoušení"
+msgid "PRAC_SESSION_TO_TRANSLATE_LBL"
+msgstr "Slovíčko:"
+msgid "PRAC_SESSION_TRANSLATION_LBL"
+msgstr "Překlad"
+msgid "PRAC_SESSION_TRANSLATION_PLC"
+msgstr "Vložte překlad..."
+
+msgid "PRAC_SESSION_SEND_BTN"
+msgstr "Odeslat"
+msgid "PRAC_SESSION_TRY_AGAIN_BTN"
+msgstr "Zkusit znovu"
+msgid "PRAC_SESSION_CONTINUE"
+msgstr "Pokračovat"
+msgid "PRAC_SESSION_SUCCESS_RATE_HEADING"
+msgstr "Úspěšnost"
+
+msgid "PRAC_RESULT_HEADING"
+msgstr "Výsledek žkoušení"
+msgid "PRAC_RESULT_FIRST_VAL_HEADING"
+msgstr "První hodnota"
+msgid "PRAC_RESULT_SECOND_VAL_HEADING"
+msgstr "Druhá hodnota"
+msgid "PRAC_RESULT_RIGHT_HEADING"
+msgstr "Sprváně"
+msgid "PRAC_RESUTL_WRONG_HEADING"
+msgstr "Špatně"
+msgid "PRAC_RESULT_RESTART_BTN"
+msgstr "Restartovat realci zkoušení"
+msgid "PRAC_DEL_DIAL_HEAD"
+msgstr "Mazání relace zkoušení"
+msgid "PRAC_DEL_DIAL_TXT"
+msgstr "Opravdu chcete vymazat tuto relaci zkoušení?"
+
+msgid "PRAC_EDIT_PRAC_HEADING"
+msgstr "Editace relace zkoušení"
+
+msgid "PRAC_CREATE_PRAC_NAME_MISSING"
+msgstr "Jméno zkoušení není vyplněno"
+
+msgid "PRAC_CREATE_PRAC_ACCEPT_AFTER_MISSING"
+msgstr "Po kolika vyřadit z relace zkoušení není nastaveno"
+
+
+msgid "PRAC_CREATE_PRAC_DIC_MISSING"
+msgstr "Nebyly vybrány žádné slovníky!"
+
+msgid "PRAC_CREATE_PRAC_NAME_ALEXISTS"
+msgstr "Relace zkoušení s tímto názvem už existuje!"
+
+msgid "PRAC_CREATE_WRONG_FORMAT_ACCEPTA"
+msgstr "Špatný formát. Pole po kolika vyřadit z relace zkoušení musí být číslo"
+# #############################################
+# ACCOUNT INFORMATION 
+msgid "CLIENT_NAME_LBL"
+msgstr "Jméno:"
+msgid "CLIENT_EMAIL_LBL"
+msgstr "Email:"
+
+# #############################################
+# #############################################
+# TESTING
+msgid "TESTING_HEADING"
+msgstr "Testování aplikace"
+
+msgid "TESTING_RUN_TESTS_BTN_LBL"
+msgstr "Spustit testy"
+
+msgid "TESTING_RESULT"
+msgstr "Výsledek testování"
+
+msgid "TESTING_LOAD_BACKUP_BTN_LBL"
+msgstr "Nahrát zálohu"
+
+msgid "TESTING_LOAD_BACKUP_SUCCESS"
+msgstr "Záloha provedena"
+
+msgid "TESTING_BACKUP_LOAD"
+msgstr "Nahrávání zálohy"
+
+msgid "TESTING_CREATE_BACKUP_BTN_LBL"
+msgstr "Vytvořit zálohu"
+
+
+
+# #############################################
+# MEMBER HOME
+msgid "MHOME_DIC_TAG_1"
+msgstr "Tvorba vlastních slovníků se slovíčky"
+
+msgid "MHOME_DIC_TAG_2"
+msgstr "Sdílení slovníků prostřednictvím Facebooku a aplikace"
+
+msgid "MHOME_PRAC_TAG_1"
+msgstr "Procvičování slovíček"
+
+msgid "MHOME_PRAC_TAG_2"
+msgstr "Různé mody zkoušení, možnost modifikací"
+
+msgid "MHOME_LEARNING_TAG_1"
+msgstr "Materiály ke studiu gramatiky"
+
+msgid "MHOME_LEARNING_TAG_2"
+msgstr "Příklady použití v praxi"
+
+msgid "MHOME_LEARNING_TAG_3"
+msgstr "Procvičování gramatiky"
+
+# #############################################
+# HOME
+msgid "HOME_HEADING"
+msgstr "Domovská stránka"
+
+# #############################################
+# REGISTRATION
+msgid "R_HEADING"
+msgstr "Registrace"
+
+msgid "R_SUCCESS_MSG"
+msgstr "Registrace proběhla úspěšně. Zaslali jsme Vám aktivační email."
+
+msgid "R_ERROR_MSG"
+msgstr "Při registraci nastala chyba. Zkuste to prosím znovu."
+
+msgid "R_SUBMIT"
+msgstr "Zaregistrovat se"
+
+msgid "R_USERNAMECHECK"
+msgstr "Toto uživatelské jméno už někdo používá."
+
+msgid "R_PWD_ERROR_MSG1"
+msgstr "Heslo musí být alespoň 6 znaků dlouhé."
+
+msgid "R_PWD_ERROR_MSG2"
+msgstr "Hesla se neshodují."
+
+msgid "R_EMAILCHECK"
+msgstr "Pod tímto emailem už u náš někdo učet má."
+
+msgid "R_NAMECHECK"
+msgstr "Toto uživatelské jméno už někdo používá."
+
+msgid "R_PWD_WARNING_MSG"
+msgstr "Vaše heslo není příliš bezpečné. Zkuste použít kombinaci velkých a malých písmen a číslic."
+
+msgid "R_FB_INFO_MSG"
+msgstr "Pod tímto emailem je už někdo přihlášen přes Facebook. Prosím použijte funcki zapomenuté heslo a my Vám vygenerujeme heslo pro tento účet."
+
+# #############################################
+# LOGIN
+msgid "L_HEADING"
+msgstr "Přihlášení"
+
+msgid "L_ERROR_MSG"
+msgstr "Chybné jméno nebo heslo."
+
+msgid "L_SUBMIT"
+msgstr "Přihlásit"
+
+msgid "L_FORGOTTENPSWD"
+msgstr "Zapomněli jste heslo?"
+
+msgid "L_BACK_TO"
+msgstr "Zpět na přihlášení"
+
+msgid "L_FB_LOGIN_BTN"
+msgstr "Přihlásit se přes Facebook"
+
+msgid "L_WRONG_PASSWORD"
+msgstr "Nesprávné heslo"
+
+msgid "L_WRONG_EMAIL"
+msgstr "Nesprávný email"
+
+msgid "L_REMEMBER_ME"
+msgstr "Zůstat přihlášený 2 týdny"
+
+# #############################################
+# LOG OUT
+msgid "LOGOUT_LB"
+msgstr "Odhlásit se"
+
+# #############################################
+# NEWPASSWORDA
+msgid "NPWDA_HEADING"
+msgstr "Aktivace hesla"
+
+msgid "NPWDA_ERROR_MSG"
+msgstr "Nastala chyba při aktivaci Vašeho nového hesla.Zkuste to prosím znovu."
+
+msgid "NPWDA_SUCCESS_MSG"
+msgstr "Vaše nové heslo bylo úspěšně aktivováno."
+
+# #############################################
+# ACCOUNT ACTIVATION
+msgid "AA_HEADING"
+msgstr "Aktivace účtu"
+
+msgid "AA_ERROR_MSG"
+msgstr "Nastala chyba při aktivaci účtu."
+
+msgid "AA_SUCCESS_MSG"
+msgstr "Účet byl úspěšně aktivován"
+
+# #############################################
+# FORGOTTEN PASSWORD
+msgid "FPWD_HEADING"
+msgstr "Zapomenuté heslo"
+
+msgid "FPWD_MSG"
+msgstr "Na email Vám bude zaslán odkaz, po jeho aktivaci dojde ke změně hesla."
+
+msgid "FPWD_EMAIL_ERROR_MSG"
+msgstr "Tento email u nás není registrován."
+
+msgid "FPWD_SUBMIT"
+msgstr "Odeslat"
+
+msgid "FPWD_ERROR_MSG"
+msgstr "Nastala chyba zkuste to prosím znovu."
+
+msgid "FPWD_SUCCESS_MSG"
+msgstr "Email Vám byl úspěšně odeslán."
+
+# #############################################
+# FORMS
+msgid "USERNAME_LABEL"
+msgstr "Uživatelské jméno"
+
+msgid "USERNAME_PLC"
+msgstr "Vložte uživatelské jméno"
+
+msgid "PWD_LABEL"
+msgstr "Heslo"
+
+msgid "PWD_PLC"
+msgstr "Vložte heslo"
+
+msgid "PWDC_LABEL"
+msgstr "Potvrzení hesla"
+
+msgid "EMAIL_LABEL"
+msgstr "Email"
+
+msgid "EMAIL_PLC"
+msgstr "Vložte email"
+
+# #############################################
+# FOOTER
+msgid "MOBILE_AP_LABEL"
+msgstr "Mobilní aplikace"
+
+msgid "LAST_MOD_LABEL"
+msgstr "Poslední úprava:"
+
+# #############################################
+# VALIDATION
+msgid "NOT_FILLED"
+msgstr "není vyplěno"
+
+
+# #############################################
+# #############################################################################
+# #############################################################################
+# ###########################                             #####################
+# ###########################       NAVIGATION BAR        #####################
+# ###########################                             #####################
+# #############################################################################
+# #############################################################################
+# LANGUAGES
+msgid "AMERICAN_ENGLISH"
+msgstr "Angličtina (Spojené státy)"
+
+msgid "AMERICAN_FLAG_IMG_DESCRIPTION"
+msgstr "americká vlajka"
+
+msgid "BRITISH_ENGLISH"
+msgstr "Angličtina (Velká británie)"
+
+msgid "CZECH"
+msgstr "Čeština"
+
+msgid "CZECH_FLAG_IMG_DESCRIPTION"
+msgstr "česká vlajka"
+
+msgid "SPANISH"
+msgstr "Španělština"
+
+msgid "GERMAN"
+msgstr "Němčina"
+
+msgid "JAPANESE"
+msgstr "Japonština"
+
+# #############################################
+# SETTINGS
+msgid "STNGS_ACCOUNT_LB"
+msgstr "Váš účet"
+
+msgid "STNGS_STATISTICS_LB"
+msgstr "Statistiky"
+
+msgid "STNGS_PRACTICE_STNG_LB"
+msgstr "Nastavení zkoušení"
+
+# SEARCHFIELD
+msgid "SEARCHFIELD_LB"
+msgstr "Hledat..."
+
+# ############################################
+# #############################################################################
+# #############################################################################
+# ###########################                             #####################
+# ########################### FUNCTION GENERATED MESSAGES #####################
+# ###########################                             #####################
+# #############################################################################
+# #############################################################################
+# DATABASE
+msgid "DB_NO_CONNECTION"
+msgstr "Nelze se připojit k databázi. Zkuste to prosím později."
+
+msgid "SQL_ERROR"
+msgstr "Nastala chyba, zkuste to prosím znovu."
+# #############################################################################
+# LOGIN - BOTH REGULAR AND FACEBOOK
+msgid "LOGIN_NOT_ACTIVATED"
+msgstr "Váš účet ještě nebyl aktivován. Podívejte se prosím do Vaší emailové schránky."
+
+msgid "FB_LOGIN_ERR"
+msgstr "Nastala chyba při přihlašování přes Facebook."
+
+# #############################################################################
+# #############################################################################
+# #############################################################################
+# #############################################################################
+# #############################################################################
+# ###########################                             #####################
+# ###########################        VALIDATION           #####################
+# ###########################                             #####################
+# #############################################################################
+# #############################################################################
+msgid "VALIDATE_NAME"
+msgstr "Uživatelské jméno může obsahovat pouze číslice a písmena, nemůže obsahovat jiné znaky nebo mezery!"
+
+msgid "VALIDATE_EMAIL"
+msgstr "Email je napsán ve špatném formátu!"
+
+# #############################################################################
+# #############################################################################
+# ###########################                             #####################
+# ###########################           EMAILS            #####################
+# ###########################                             #####################
+# #############################################################################
+# #############################################################################
+# CONFIRM REGISTRATION
+msgid "MAIL_CR_SUB"
+msgstr "Potvrzení registrace"
+
+msgid "MAIL_CR_TITLE"
+msgstr "Potvrzení registrace - Zkoušení slovíček"
+
+msgid "MAIL_CR_H1"
+msgstr "Děkujeme Vám, že jste se u nás zaregistrovali."
+
+msgid "MAIL_CR_H2"
+msgstr "Vaše údaje:"
+
+msgid "MAIL_CR_USERNAME_LB"
+msgstr "Uživatelské jméno:"
+
+msgid "MAIL_CR_PASSWORD_LB"
+msgstr "Heslo:"
+
+msgid "MAIL_CR_LINK_LB"
+msgstr "Pro potvrzení vaší registrace prosím přejděte na následující odkaz"
+
+# FORGOTTEN PASSWORD
+msgid "MAIL_FP_SUB"
+msgstr "Zapomenuté heslo"
+
+msgid "MAIL_FP_TITLE"
+msgstr "Zapomenuté heslo - Zkoušení slovíček"
+
+msgid "MAIL_FP_H1"
+msgstr "Obnovení hesla"
+
+msgid "MAIL_FP_PASSWORD_LB"
+msgstr "Vaše nové heslo je:"
+
+msgid "MAIL_FP_LINK_LB"
+msgstr "Pro aktivaci Vašeho nového hesla přejděte prosím na následující odkaz"
+
+# #############################################################################
+# #############################################################################
+# #############################################################################
+# #############################################################################
+# ###########################                             #####################
+# ###########################           DIALOGS           #####################
+# ###########################                             #####################
+# #############################################################################
+# #############################################################################
+msgid "YES_NO_DIAL_POSITIVE"
+msgstr "Ano"
+
+msgid "YES_NO_DIAL_NEGATIVE"
+msgstr "Ne"
+
+msgid "DIALOG_CLOSE"
+msgstr "Zavřít"
+
+
+msgid "DIALOG_SUBMIT"
+msgstr "Odeslat"

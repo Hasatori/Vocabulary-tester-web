@@ -1,0 +1,751 @@
+$background-color:#f2f2f2;
+$navigationBarBackgroundColor:#2574A9;
+$textColor2:#333;
+$errorColor:#d9534f;
+$warningColor:#FF8800;
+$successColor:#5cb85c;
+/*################### NAVIGATION BAR #########################*/
+body{
+ background-color: ($background-color !important);
+ font-family:Georgia !important;
+ overflow-x:hidden;
+}
+.navbar-inverse{
+ background-color: ($navigationBarBackgroundColor !important);
+color:white; margin-bottom: 0 !important;
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
+}
+.navbar-inverse *{
+  color: ($background-color !important);
+  font-weight: bold;
+
+}
+.navbar-left .input-group{
+  width: 25rem;
+  padding-left: 1rem;
+
+}
+.navbar-left .input-group .form-control,.navbar-left .input-group .btn-default i{
+ color:$textColor2 !important;  
+}
+.languages.open  .caret{
+
+ transform: rotate(180deg);
+  transition: none;
+}
+.caret{
+  transition: none;
+}
+.languages.open .dropdown-toggle{
+  background-color:#2574A9 !important;
+  opacity: 1 !important;;
+  border-bottom: 1px solid $textColor2 !important;;
+  
+}
+.languages{
+  border-bottom: 1px solid $textColor2;
+}
+.languages .dropdown-menu{
+  background-color: $navigationBarBackgroundColor;
+ 
+   -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
+}
+.languages li{
+  padding: 1rem;
+}
+.languages li img{
+  margin-right: 1rem
+}
+.navbar-right{
+  border-top: 1px solid $textColor2
+}
+.navbar-inverse .navbar-brand,#myNavbar{
+  font-family:Georgia !important; 
+  font-size:100% !important;
+}
+#myNavbar li a{
+opacity: 1;
+
+  
+}
+
+.navbar-inverse .navbar-brand{
+  font-size: 150% !important;;
+  opacity: 1;
+  margin:0;
+  cursor: pointer;
+}
+.navbar-inverse .active a {
+  background-color: $textColor2 !important; }
+@media only screen and (min-width: 1005px) {
+      .navbar-inverse .navbar-brand {
+  font-size: calc(180% + 0.3vw) !important;
+ 
+  opacity: 1; 
+}
+
+.navbar-left .input-group{
+  width: 100%;
+  padding-left: 0rem;
+}
+.languages.open  .caret{
+
+
+  transition: all 0.3s ease-in;
+}
+.caret{
+  transition: all 0.3s ease-in;
+}
+ .languages.open .dropdown-toggle{
+ background-color: ($navigationBarBackgroundColor !important);
+    
+   
+}
+    .languages{
+ 
+    transition: all  1s ease;
+  }
+  .languages:hover{
+ 
+    transition: all  1s ease;
+  }
+  .languages .dropdown-menu{
+    border: none;
+    padding:0 !important;;
+       border: 1px solid $textColor2 !important;
+  width:230px !important;
+  }
+
+  .languages li{
+    border-bottom: 1px solid $textColor2;
+     opacity: 0.7 !important;;
+  }
+  .languages li a{
+    background-color: transparent !important;;
+   
+  }
+  .languages li:hover {
+
+       opacity: 1 !important;;
+  }
+#myNavbar li a{
+opacity: 0.7;
+  border-left: 1px solid $textColor2;
+  
+}
+
+#myNavbar li:hover a{
+ opacity:1 !important;
+  transition: opacity 1s;
+}
+/*#myNavbar li:hover:after{
+background: linear-gradient(to right,$navigationBarBackgroundColor 50%, $background-color  50%);
+background-size: 300% 100%;background-position:left bottom;
+
+  transition:all 0.5s linear;
+}*/
+#myNavbar .active a{
+  opacity:1 !important;
+}
+.navbar-inverse  .active a {
+ background-color: ($navigationBarBackgroundColor !important); 
+ 
+}
+.slider {
+   height: 8px;
+  z-index: 2;
+
+  }
+}
+
+.nav li:hover{
+    cursor: pointer;
+}
+.mainContent {
+  min-height: 83.9vh; 
+
+}
+
+/*      HAMBURGER BUTTON ANIMATION               */
+#nav-icon1 {
+    margin-right: 0;
+  width: 35px;
+  height: 32px;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  cursor: pointer; 
+  transition: none;
+}
+@media only screen and (min-width: 300px) {
+ #nav-icon1 {
+    width: 40px; 
+  }
+}
+#nav-icon1 span {
+  display: block;
+  position: absolute;
+  height: 2.5px;
+  width: 80%;
+  background: $background-color;
+  border-radius: 9px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .25s ease-in-out;
+  -moz-transition: .25s ease-in-out;
+  -o-transition: .25s ease-in-out;
+  transition: .25s ease-in-out; }
+
+#nav-icon1 span:nth-child(1) {
+  top: 8px; }
+
+#nav-icon1 span:nth-child(2) {
+  top: 15px; }
+
+#nav-icon1 span:nth-child(3) {
+  top: 22px; }
+
+#nav-icon1.open span:nth-child(1) {
+  top: 13px;
+  -webkit-transform: rotate(135deg);
+  -moz-transform: rotate(135deg);
+  -o-transform: rotate(135deg);
+  transform: rotate(135deg); }
+
+#nav-icon1.open span:nth-child(2) {
+  opacity: 0;
+  left: -60px; }
+
+#nav-icon1.open span:nth-child(3) {
+  top: 13px;
+  -webkit-transform: rotate(-135deg);
+  -moz-transform: rotate(-135deg);
+  -o-transform: rotate(-135deg);
+  transform: rotate(-135deg); }
+
+/*###########################################################*/
+
+/*################### FORMS #########################*/
+.formWrapper {
+  max-width: 50rem;
+  padding: 5rem;
+  margin: auto; }
+.form-horizontal{
+   padding: 2rem;
+}
+
+.formWrapper a{
+  font-size: 80%;
+  
+}
+.formWrapper a:hover{
+  cursor: pointer;
+  
+}
+h2 {
+  font-weight: bold !important;;
+  text-align: center;
+  padding-bottom: 3rem; }
+
+.errorMessage,.warningMessage{
+  display: none !important;;
+ 
+    color:$errorColor; 
+ width: 200%;
+}
+.warningMessage{
+
+    color:$warningColor;
+left:45%;
+    margin-bottom:1rem;
+}
+.btn-facebook,.btn-twitter{
+  font-size: 100% !important;;
+  font-weight: bold !important;;
+  color:($background-color !important);
+    font-family: Georgia;
+}
+
+/*###########################################################*/
+
+/*################### ERROR/SUCCESS-MSGS #########################*/
+
+
+.success,.error {
+  
+  max-width: 60% !important;
+  margin: auto !important;
+  margin-top: 10% !important; 
+ text-align: justify ;
+}
+.success *,.error * {
+ 
+  font-size: calc(1rem + 1vw);
+}
+.success a,.error a{
+  display: block;
+}
+.glyphicon-ok.success, .glyphicon-remove.error, .successHeading {
+  color: #5cb85c;
+  font-size: calc(2rem + 0.5vw); }
+
+.glyphicon-remove.error, .errorHeading {
+  color: #d9534f; }
+
+.successHeading, .errorHeading {
+  display: block;
+  text-align: center; }
+.mainMessageWrapper{
+    display: block;
+    margin: auto;
+    max-width:50rem;
+    text-align:center;
+}
+/*###########################################################*/
+
+/*################### LOADER #########################*/
+.loaderWrapper {
+  display: none;
+  background-color: rgba(255,255,255,0.4);
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  top: 0;
+
+}
+
+.loader {
+
+  border: 20px solid transparent;
+  border-radius: 50%;
+  border-top: 20px solid $navigationBarBackgroundColor;
+  width: 20rem;
+  margin: auto;
+  margin-top: 30vh;
+  height: 20rem;
+    z-index: 11;
+  animation: spin 1s ease-in-out infinite; }
+.registrationResultMessage, .registrationResultMessage > div {
+  display: none;
+
+}
+.registrationResultMessage div {
+  margin:auto;
+position: absolute;
+  bottom: 0;
+  top: 0;
+  width: 100%;
+  padding: 1rem;
+  text-align: center;
+  height: 20%;
+  z-index: 11;
+  font-size:calc(1rem + 1vw);
+}
+.registrationResultMessage div p{
+ display: inline;
+  
+ padding: 2rem;
+
+}
+
+div[class=rerrorMessage] button{
+    border: none;
+    text-decoration:underline;
+  color:$navigationBarBackgroundColor;
+}
+
+.rsuccessMessage{
+    color: $successColor;
+}
+.rerrorMessage{
+        color: $errorColor;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(360deg); } }
+
+/*###########################################################*/
+
+/*################### MEMBER #########################*/
+.loginName {
+  background-color: #333 !important;
+  color: #f2f2f2 !important;
+  opacity: 1 !important;
+  cursor: initial; }
+
+.homeIconGallery {
+  margin: 0 !important;
+ margin-left: 3rem !important;;
+      margin-right: 3rem !important;;
+}
+
+.homeIconGallery img:hover {
+  cursor: pointer; }
+.homeImage{
+ 
+}
+.mainContent > .row{
+  margin: 0;
+}
+@media only screen and (min-width: 1005px) {
+  .homeIconGallery {
+    padding-top:7rem ; 
+      margin-left: 7rem !important;;
+      margin-right: 7rem !important;;
+  }
+
+  .homeIconGallery img {
+    margin-top: 0rem; }
+  .homeIconGallery .col-sm-4:hover{
+        cursor: pointer;  
+  }
+  .homeIconGallery .col-sm-4:hover img {
+
+    height: 200px !important;
+    transition: all 0.7s ease-in-out; }
+}
+.homeIconGallery img {
+  transition: all 0.7s ease-in-out;
+  display: block;
+  margin: auto !important;
+  margin-top: 5rem !important;
+  margin-bottom: 5rem !important; }
+  .homeIconGallery > a{
+  color: ($textColor2 !important);
+  text-decoration: none !important;
+}
+.list-group-item:before{
+  content: '';
+  position: absolute;
+  display: block;
+  background-color: $textColor2;
+  width: 1rem;
+  border: 0.5rem solid $textColor2;
+  border-radius: 50%;
+  right: 101%;
+  top: 45%;
+    
+  
+}
+/*################### DICTIONARIES LIST #########################*/
+.tableCaption{
+  text-align: center;
+  font-size: 2rem;
+  color: #333;
+  width: 85%;
+}
+table  .glyphicon-plus{
+   
+    border: none;
+    outline: none;
+    cursor: pointer;
+    opacity: 0.7;
+      transition: all 0.2s linear;
+}
+table .add,table .remove{
+     color: $successColor;
+      border: none !important;
+cursor:pointer;
+opacity: 0.7;
+width: 1rem;
+}
+table .remove{
+    color: $errorColor;
+}
+
+table .add p{
+display: inline;
+  font-size: 80%;
+  color: $textColor2;
+}
+table .add:hover {
+  
+      opacity: 1;
+      transition: all 0.2s linear;
+      
+  
+}
+
+
+.dictionariesListTable > thead th:not([class]),
+.supplementaryTable > thead th:not([class]) {
+  border: 1px solid lightgrey;
+  color: white;
+  background-color: #2574A9; }
+
+.dictionariesListTable > tbody > tr > td,
+.supplementaryTable > tbody > tr > td{
+  outline: 1px solid lightgrey;
+  border-collapse: collapse; }
+
+
+table tr{
+  background-color: transparent !important;;
+
+}
+
+
+.dictionariesListTable > tbody tr td,
+.supplementaryTable > tbody tr td{
+  transition: all 0.5s linear; }
+
+.dictionariesListTable > tbody tr:hover td:not([class]) ,
+.supplementaryTable > tbody tr:hover td:not([class]) {
+  outline: 1px solid $navigationBarBackgroundColor;
+  box-shadow: 1px 1px 10px 2px $navigationBarBackgroundColor;
+  cursor: pointer;
+  transition: all 0.5s linear; }
+.pagination{ 
+width: 85% ;
+}
+.pagination *{
+    cursor: pointer;
+}
+.pagination li a{
+  width: 40px !important;;
+  text-align: center;
+}
+.page-item.active .page-link{
+  color: $background-color !important;
+}
+.dictionariesListBreadcrumps{
+  padding: 2rem;
+}
+.dictionariesListBreadcrumps li{
+  display: inline-block;
+  font-size: 2rem;
+
+}
+ .breadcrumpItem{
+  color: ($navigationBarBackgroundColor !important);
+cursor: pointer;
+    font-weight: bold; 
+}
+.breadcrumpItemActive{
+  opacity: 0.5;
+}
+.selectedDictionary td:not([class]) {
+outline: 1px solid $navigationBarBackgroundColor;
+  box-shadow: 1px 1px 10px 2px #2574A9;
+ }
+ 
+ .externalCell,.externalCell2{
+    
+    
+      outline: none !important;
+      border:none !important;
+           background-color: transparent !important;
+
+ }
+ .externalCell .glyphicon-remove,.externalCell2 .glyphicon-pencil{
+     
+       opacity: 0.7;
+        transition: all 0.5s linear;
+ }
+ .externalCell .glyphicon-remove{
+   color: $errorColor;
+ }
+ .externalCell:hover .glyphicon-remove,.externalCell2:hover .glyphicon-pencil{
+    
+   opacity: 1;
+  
+   transition: all 0.5s linear;
+     cursor: pointer;
+ }
+ .alertWrapper{
+     display: none;
+  background-color:rgba(255,255,255,0.8);
+  position: fixed;
+  z-index: 100;
+  height: 100%;
+  width: 100% !important;;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: 0 !important;
+  
+}
+.alertWrapper .glyphicon-remove {
+  float: right;
+  font-size: 120%;
+  color:$errorColor; 
+margin: 0;
+cursor: pointer;
+  opacity:0.7;
+    transition:all 0.2s linear;
+}
+.alertWrapper .glyphicon-remove:hover {
+  font-size: 125%;
+  opacity:1;
+  transition:all 0.2s linear;
+}
+
+.alertWrapper form .row {
+  text-align: center; }
+
+.alertWrapper form {
+  width: 25%;
+  border: 1px solid lightgrey;
+  border-radius: 1rem;
+  background-color: $background-color;
+  margin: auto;
+  margin-top: 20rem;
+  padding-top: 0; 
+padding-right: 0;
+  
+}
+.alertWrapper form .form-group{
+  margin-right: 1rem !important;;
+}
+
+.glyphicon-plus {
+  color: $successColor; }
+
+#yesNoDialogHeading *,#yesNoDialogMessage * {
+    display: none;
+}
+.list-inline-item{
+  font-size: 150%;
+  font-weight: bold;
+}
+/*###########################################################*/
+/*################### PRACTICE #########################*/
+.practiceSection, .prepareSection {
+
+padding: 2rem;
+}.practiceSection .col-sm-3{
+  min-height: 3rem !important;;
+}
+
+#rowPracticeSection .btn-success{
+opacity: 0.8; 
+  float: right;
+  color:  $background-color;
+  font-size: 120% !important;;
+    transition:all 0.5s linear;
+}
+.btn-success:hover{
+  opacity: 1;
+  transition:all 0.5s linear;
+}
+.successCircle{
+  text-align: center;
+  margin: auto;
+  display: block;
+  width: 150px;
+  height: 150px;
+  border: 2px solid $textColor2;
+  background-color: $navigationBarBackgroundColor ;
+  border-radius: 50%
+}
+.succesRateValue{
+  color: $background-color;
+  width: 50%;
+  font-size: 150%;
+  text-align: center;
+  line-height: 150px;
+  margin: auto;
+  display: block; 
+}
+#continue,#tryAgain{
+    display: none;
+}
+.rightAnswerTooltip{
+ font-size: 3rem;
+  margin: 1rem;
+  cursor: pointer;
+ color: $navigationBarBackgroundColor;
+}
+.rightAnswerTooltip + .tooltip > .tooltip-inner {
+  
+background-color: $navigationBarBackgroundColor;
+  font-size:calc(1rem + 0.2vw);
+  padding: 1rem;
+  min-width: 15rem;
+  font-weight: bold;
+
+}
+#restartPractice{
+    background-color: $navigationBarBackgroundColor;
+}
+#createPractice{
+    border-top: 0.2rem solid $textColor2;
+    margin-top: 5rem;
+}
+ .right{
+  background-color: $background-color !important;
+}
+/*###########################################################*/
+/*################### FOOTER #########################*/
+.footer{
+
+display: block;
+
+    width: 100%;
+ 
+    background-color: ($navigationBarBackgroundColor !important);
+    color: ($background-color !important);
+font-weight:bold;
+  text-align:center;
+}
+.footer .row{
+    margin:0 !important;
+}
+.footer .row .col-sm-4{
+  padding: 1rem;
+}
+.footerLastMod,.footerCop{
+  line-height:120px;
+
+ 
+}
+.footerLastMod{
+
+  border-radius: 10px;
+  
+}
+.footerLastMod p{
+  display: inline;
+  font-weight:initial;
+}
+.footer p:last-child{
+  font-size: 120%;
+  font-weight: bold;
+  
+}
+.footerMobileApp {
+margin: auto;
+
+    height: 120px;
+  border-radius: 10px;
+  border: 1px solid $background-color;
+    background-color: #333;
+  padding: 1rem;
+}
+@media only screen and (min-width: 1005px) {
+  .footerMobileApp {
+
+    float: right;
+    width: 200px;
+  }
+  
+}
+/*###########################################################*/
